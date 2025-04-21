@@ -1,0 +1,100 @@
+
+        .container {
+            width: 100%;
+            display: flex;
+        }
+
+        .highlighted-cell {
+            border: 2px solid blue;
+        }
+
+        .limiting-reagent-border {
+            border: 2px solid orange;
+        }
+
+        .main-content {
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* Center horizontally */
+        }
+
+        .correct-answer {
+            border: 2px solid green;
+        }
+
+        .incorrect-answer {
+            border: 2px solid red;
+        }
+
+        .unbalanced-formula-input {
+            border: 2px solid blue;
+            width: 2ch;
+        }
+
+        .generate-reset-container {
+            /* New container for buttons */
+            display: flex;
+            justify-content: center;
+            /* Center horizontally */
+            margin-bottom: 10px;
+            /* Add some space below */
+        }
+
+        .generate-reset-container button {
+            margin: 0 10px;
+            /* Add space between buttons */
+        }
+
+        .guided-practice {
+            width: 20%;
+            padding: 20px;
+            border-left: 1px solid #ccc;
+        }
+
+        body {
+            background-color: lightgray;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .checkbox-button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .checkbox-button-container .row {
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            /* Center horizontally */
+        }
+
+        #guidedPracticeSection {
+            position: fixed;
+            /* Pop up on the right */
+            top: 0;
+            right: 0;
+            width: 20%;
+            height: 100%;
+            background-color: white;
+            padding: 20px;
+            border-left: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        #instructionsPopup,
+        #periodicTableContainer {
+            width: 80%;
+            /* Match main content width */
+            max-width: 800px;
+            /* Optional max width */
+            margin: 20px auto;
+            /* Center horizontally */
+        }
